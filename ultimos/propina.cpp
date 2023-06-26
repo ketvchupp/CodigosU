@@ -42,10 +42,12 @@ int main()
     int propinas[1000];
     int menu, res;
     
+    inicializar_registros(consumos, propinas);
+    
     cin>>menu;
     
     while (menu!=3){
-        inicializar_registros(consumos, propinas);
+   
     while (menu==1){
         cin>>consumo;
         cin>>propina;
